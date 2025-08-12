@@ -1,0 +1,8 @@
+.react-pdf__Page__textContent {
+  font-family: sans-serif;
+  user-select: none;
+  pointer-events: none;
+}
+.react-pdf__Page__annotations {
+  pointer-events: auto;
+}
