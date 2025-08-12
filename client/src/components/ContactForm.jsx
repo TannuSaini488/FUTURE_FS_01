@@ -9,7 +9,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8080/api/contact', form);
+      await axios.post('https://portfolio-backend-fs29.onrender.com/api/contact', form);
       alert('Message sent!');
     } catch {
       alert('Error sending message');
